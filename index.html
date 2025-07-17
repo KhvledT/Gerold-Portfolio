@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerold - Web Developer + UX Designer</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a6df71eecb.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- General CSS -->
+    <link rel="stylesheet" href="css/general.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- Media CSS -->
+    <link rel="stylesheet" href="css/madia.css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-3 fixed-top" data-bs-theme="dark">
+        <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-3" href="#home">
+                    <img src="imgs/logo.png" alt="logo" style="width:50px;height:50px;">
+                    <h2 class="h5 mb-0" style="font-size: 15px;">mail@gerolddesign.com</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-start gap-4 text-start">                
+                <li class="nav-item pt-3"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                <li class="nav-item pt-3"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item pt-3"><a class="nav-link" href="#mySkills">Skills</a></li>
+                <li class="nav-item pt-3"><a class="nav-link" href="#contact">Contact</a></li>
+                
+                <li class="nav-item pt-1">
+                    <a href="#" class="mainBtn">Hire Me!</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <!-- Hero/Main Section -->
+    <main id="home" class="py-3 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Info -->
+                <div class="info col-lg-6">
+                    <h3 class="mb-2 fw-bold text-white">I am Gerold</h3>
+                    <h2 class="magic-color mb-3 fw-bold">Web Developer + UX Designer</h2>
+                    <p class="text-white">I break down complex user experience problems to create integrity focused solutions that connect billions of people</p>
+                    <div class="info-inner d-flex align-items-center gap-3 my-4 flex-wrap">
+                        <a href="#" class="btn btn-outline-primary dCV mainBtn">Download CV <i class="fa-solid fa-download ms-2"></i></a>
+                        <div class="links d-flex gap-2">
+                            <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="I fa-brands fa-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="I fa-solid fa-basketball"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="I fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle"><i class="I fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="img col-lg-6 text-center">
+                    <div class="img-inner">
+                        <img src="imgs/me.png" alt="me" class="img-fluid" >
+                    </div>
+                </div>
+            </div>
+            <!-- Details/Stats -->
+            <div class="details row text-center mt-5">
+                <div class="details-inner">
+                    <div class="text col-6 col-md-3 mb-3">
+                        <div class="num"><span class="counter" data-target="14">0</span></div>
+                        <div class="text-inner text-uppercase">years of experience</div>
+                    </div>
+                    <div class="text col-6 col-md-3 mb-3">
+                        <div class="num"><span class="counter" data-target="50">0</span>+</div>
+                        <div class="text-inner text-uppercase">Project Completed</div>
+                    </div>
+                    <div class="text col-6 col-md-3 mb-3">
+                        <div class="num"><span class="counter" data-target="1500">0</span></div>
+                        <div class="text-inner text-uppercase">Happy Clients</div>
+                    </div>
+                    <div class="text col-6 col-md-3 mb-3">
+                        <div class="num"><span class="counter" data-target="5">0</span>+</div>
+                        <div class="text-inner text-uppercase">International projects</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Services Section -->
+    <!-- HTML + Bootstrap Tabs Integration -->
+    <section id="services" class="py-5 position-relative">
+    <div class="container">
+        <div class="text-center mb-5">
+        <h2 class="fw-bold magic-color">My Recent Works</h2>
+        <p class="text-secondary text-white">
+            We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.
+        </p>
+        <ul class="nav nav-pills justify-content-center bg-black rounded-pill py-2 px-3 mt-4" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-ui-tab" data-bs-toggle="pill" data-bs-target="#pills-ui" type="button" role="tab" aria-controls="pills-ui" aria-selected="false">UI/UX</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-brand-tab" data-bs-toggle="pill" data-bs-target="#pills-brand" type="button" role="tab" aria-controls="pills-brand" aria-selected="false">Branding</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app" aria-selected="false">Apps</button>
+            </li>
+        </ul>
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+        <!-- All Projects -->
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+            <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img1.jpg" alt="img1" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">Deloitte</h5>
+                    <p class="mb-0">Project was about precision and information.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img2.jpg" alt="img2" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">New Age</h5>
+                    <p class="mb-0">Project was about precision and information.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img3.jpg" alt="img3" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">Sebastian</h5>
+                    <p class="mb-0">UI/UX Focused Design.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img4.jpg" alt="img4" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">Mochnix</h5>
+                    <p class="mb-0">Brand identity and presentation.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- UI/UX Projects -->
+        <div class="tab-pane fade" id="pills-ui" role="tabpanel" aria-labelledby="pills-ui-tab">
+            <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img3.jpg" alt="img3" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">Sebastian</h5>
+                    <p class="mb-0">UI/UX Focused Design.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Branding Projects -->
+        <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-brand-tab">
+            <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img4.jpg" alt="img4" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">Mochnix</h5>
+                    <p class="mb-0">Brand identity and presentation.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Apps Projects -->
+        <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+            <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="rounded overflow-hidden position-relative project-item">
+                <div class="img">
+                    <img src="imgs/img1.jpg" alt="img1" class="img-fluid">
+                </div>
+                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                    <div>
+                    <h5 class="mb-1">App Project</h5>
+                    <p class="mb-0">Cross-platform mobile app.</p>
+                    </div>
+                    <div class="fs-4">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="mySkills" class="py-5 mySkills">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class=" fw-bold magic-color">My Skills</h2>
+                <p class="h-text text-secondary text-white py-2">We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon1.svg" alt="Figma" style="width:60px; padding-bottom: 15px;">
+                        <span>92%</span>
+                        <p class="fw-bold mt-2 mb-0">Figma</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon2.svg" alt="Sketch" style="width:60px; padding-bottom: 15px;">
+                        <span>80%</span>
+                        <p class="fw-bold mt-2 mb-0">Sketch</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon3.svg" alt="XD" style="width:60px; padding-bottom: 15px;">
+                        <span>85%</span>
+                        <p class="fw-bold mt-2 mb-0">XD</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon4.svg" alt="WordPress" style="width:60px; padding-bottom: 15px;">
+                        <span>99%</span>
+                        <p class="fw-bold mt-2 mb-0">WordPress</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon5.svg" alt="React" style="width:60px; padding-bottom: 15px;">
+                        <span>89%</span>
+                        <p class="fw-bold mt-2 mb-0">React</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon6.svg" alt="JavaScript" style="width:60px; padding-bottom: 15px;">
+                        <span>93%</span>
+                        <p class="fw-bold mt-2 mb-0">JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 contact">
+        <div class=" container py-5">
+            <div class="row g-4">
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="bg-dark rounded-4 p-4 h-100">
+                        <div class="mb-4">
+                            <h3 class="magic-color">Let�s work together!</h3>
+                            <p>I design and code beautifully simple things and I love what I do. Just simple like that!</p>
+                        </div>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6"><input type="text" class="form-control" name="name" placeholder="First Name" required></div>
+                                <div class="col-md-6"><input type="text" class="form-control" name="secondName" placeholder="Last Name" required></div>
+                                <div class="col-md-6"><input type="email" class="form-control" name="email" placeholder="Email address" required></div>
+                                <div class="col-md-6"><input type="tel" class="form-control" name="number" placeholder="Phone number"></div>
+                                <div class="col-12">
+                                    <select class="form-select" name="service" required>
+                                        <option value="">Choose Services</option>
+                                        <option value="Branding Design">Branding Design</option>
+                                        <option value="Web Design">Web Design</option>
+                                        <option value="UI/UX Design">UI/UX Design</option>
+                                        <option value="Apps Design">Apps Design</option>
+                                    </select>
+                                </div>
+                                <div class="col-12"><textarea class="form-control" name="message" rows="4" placeholder="Message" required></textarea></div>
+                                <div class="col-12"><button class="btn mainBtn w-100" type="submit">Send Message</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Contact Details -->
+                <div class="col-lg-4">
+                    <div class="-4 p-4 h-100">
+                        <div class="mb-3">
+                            <div class="inner">
+                                <p class="mb-1">Phone</p>
+                                <a href="tel:+011236548096" class="text-decoration-none">+01 123 654 8096</a>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="inner">
+                                <p class="mb-1">Email</p>
+                                <a href="mailto:gerolddesign@mail.com" class="text-decoration-none">gerolddesign@mail.com</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="inner">
+                                <p class="mb-3">Address</p>
+                                <span>Warne Park Street Pine, FL 33157, New York</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="footer-inner">
+            <div class="img"><img src="imgs/logo.png" alt="logo">
+            </div>
+            <div class="copyright">
+                <p>© 2024 All rights reserved by <a href="#">ThemeJunction</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <!--
+    Website Summary:
+    - Responsive personal portfolio for a web developer/UX designer.
+    - Built with Bootstrap 5 for layout, grid, navbar, cards, and forms.
+    - Font Awesome for icons.
+    - Custom CSS for branding and fine-tuned design.
+    - JavaScript for project filtering and contact form feedback.
+    - Minimal media queries; Bootstrap handles most responsiveness.
+    - Sections: Hero, Works, Skills, Contact, Footer. All content is easily editable.
+    -->
+</body>
+</html> 

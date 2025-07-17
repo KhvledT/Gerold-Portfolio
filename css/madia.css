@@ -1,0 +1,19 @@
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    align-items: flex-start !important;
+  }
+}
+
+@media screen and (max-width: 999px) {
+    main .img{
+        width: 100% !important;
+        margin: 50px auto !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    main .img{
+        width: 80% !important;
+        margin: 50px auto !important;
+    }
+    
+}
