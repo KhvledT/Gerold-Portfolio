@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Gerold Design Portfolio
 
 A modern, responsive portfolio website showcasing web development and UX design projects. Built with vanilla JavaScript, Bootstrap 5, and modern CSS animations.
@@ -265,3 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ by Gerold Design** 
+=======
+# Gerold-Portfolio
+Responsive personal portfolio for a web developer/UX designer
+>>>>>>> 9863b61d3159be1d5e69b9a02d9232dd1e112b09
