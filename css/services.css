@@ -9,7 +9,9 @@ section#services .container h2{
 section#services .container ul{
     width: fit-content !important; 
     margin: 0 auto !important;
-}
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
 
 section#services .container ul li button{
     color: var(--normal-color);
