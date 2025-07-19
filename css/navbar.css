@@ -1,0 +1,20 @@
+/* Navbar Styles */
+
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+}
+
+.scroll-nav {
+  background-color: var(--bg-color) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.navbar.nav-open {
+  background-color: var(--bg-color) !important;
+} 

@@ -1,0 +1,85 @@
+/* Services Section Styles */
+
+section#services .container h2{
+    font-size: 50px !important;
+    width: fit-content !important;
+    margin: 0 auto !important
+}
+
+section#services .container ul{
+    width: fit-content !important; 
+    margin: 0 auto !important;
+}
+
+section#services .container ul li button{
+    color: var(--normal-color);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section#services .container ul li button.active{
+    background: linear-gradient(90deg, var(--main1-color), var(--main2-color)) !important;
+}
+
+section#services .container ul li button:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(130, 77, 239, 0.3);
+} 
+
+.project-hover {
+  background-image: linear-gradient(90deg, var(--main1-color), var(--main2-color)) !important;
+  width: 90%;
+  left: 5%;
+  border-radius:10px !important;
+  padding: 15px !important;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  bottom: -20%;
+}
+.project-item:hover .project-hover {
+  opacity: 1 !important;
+  bottom: 3% !important;
+}
+.project-item:hover .project-hover .fs-4 i{
+    transition: all 0.4s ease-in-out;
+    transform: rotate(360deg);
+}
+.project-item{
+    background-color: #140C1C !important;
+    padding: 30px 20px 0px 20px !important;
+    border-radius: 10px 10px 0px 0px !important;
+}
+.project-item .img{
+    overflow: hidden;
+}
+.project-item img{
+    transition: all 0.3s ease-in-out;
+}
+.project-item:hover img{
+    transform: scale(1.05);
+}
+/* Tab Content Animations */
+.tab-pane {
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+.tab-pane.fade {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.tab-pane.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.tab-content {
+  min-height: 400px;
+}
+
+/* Staggered Animation for Project Items */
+.tab-pane.show .project-item:nth-child(1) { animation-delay: 0.1s; }
+.tab-pane.show .project-item:nth-child(2) { animation-delay: 0.2s; }
+.tab-pane.show .project-item:nth-child(3) { animation-delay: 0.3s; }
+.tab-pane.show .project-item:nth-child(4) { animation-delay: 0.4s; } 

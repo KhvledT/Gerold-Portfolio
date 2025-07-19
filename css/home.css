@@ -1,0 +1,119 @@
+/* Home Section Styles */
+
+main#home {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container{
+    margin: 100px auto !important;
+}
+
+main h3{
+    font-size: 40px !important;
+}
+
+main h2{
+    font-size: 65px !important;
+}
+
+main p{
+    font-size: 20px !important;
+}
+
+main .info .info-inner .links a{
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--main1-color);
+}
+
+main .info .info-inner .links i{
+    font-size: 20px;
+    color: var(--main1-color) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+main .info .info-inner .links a:hover{
+    background-color: var(--main1-color);
+}
+
+main .info .info-inner .links a:hover i{
+    color: #fff !important;
+}
+
+main .img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .img .img-inner{
+    width: 400px;
+}
+
+main .img-inner img{
+    transform: rotate(5deg);
+    width: 100%;
+    border-radius: 40px;
+    border: 2px solid var(--main2-color);
+    transition: all 0.2s ease-in-out;
+}
+
+main .img-inner img:hover{
+    transform: rotate(0deg);
+    border: 2px solid var(--main1-color);
+}
+
+main .details{
+    color: var(--normal-color) ;
+    display: flex;
+    margin: 50px 0;
+    width: 100%;
+}
+
+main .details-inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .details-inner .text{
+    display: flex;
+    gap: 10px;
+    color: var(--normal-color);
+}
+
+main .details-inner .text .num,main .details-inner .text .num span{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+main .details-inner .text .text-inner{
+    font-size: 17px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+} 
+/* Home section-specific media queries */
+@media screen and (max-width: 999px) {
+    main .img{
+        width: 100% !important;
+        margin: 50px auto !important;
+    }
+}
+@media screen and (max-width: 575.20px) {
+    main .img{
+        width: 80% !important;
+        margin: 50px auto !important;
+    }
+    main .details-inner .text{
+      margin-left: 25% !important;
+    }
+} 

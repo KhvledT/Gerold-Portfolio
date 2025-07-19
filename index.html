@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerold - Web Developer + UX Designer</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- General site-wide styles -->
+    <link rel="stylesheet" href="css/general.css">
+    <!-- Animations -->
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- Navbar styles -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- Home section styles -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Services section styles -->
+    <link rel="stylesheet" href="css/services.css">
+    <!-- Skills section styles -->
+    <link rel="stylesheet" href="css/skills.css">
+    <!-- Testimonials section styles -->
+    <link rel="stylesheet" href="css/testimonials.css">
+    <!-- Contact section styles -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Footer section styles -->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Media queries and responsive styles -->
+    <link rel="stylesheet" href="css/madia.css">
+</head>
+<body>
+    <a href="#home" class="visually-hidden-focusable skip-link" tabindex="0">Skip to main content</a>
+    <div id="preloader" aria-hidden="true">
+        <div class="spinner"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg p-3 fixed-top" data-bs-theme="dark" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="#home">
+                <img src="imgs/logo.png" alt="Gerold Design logo" style="width:50px;height:50px;" loading="eager">
+                <h2 class="h5 mb-0" style="font-size: 15px;">mail@gerolddesign.com</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-start gap-4 text-start">
+                    <li class="nav-item pt-3"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                    <li class="nav-item pt-3"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item pt-3"><a class="nav-link" href="#mySkills">Skills</a></li>
+                    <li class="nav-item pt-3"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item pt-3"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item pt-1">
+                        <a href="#" class="mainBtn">Hire Me!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="home" class="py-5 mt-5" tabindex="-1" aria-label="Homepage main content">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="info col-lg-6">
+                    <h3 class="mb-2 fw-bold text-white">I am Gerold</h3>
+                    <h2 class="magic-color mb-3 fw-bold">Web Developer + UX Designer</h2>
+                    <p class="text-white">I break down complex user experience problems to create integrity focused solutions that connect billions of people</p>
+                    <div class="info-inner d-flex align-items-center gap-3 my-4 flex-wrap">
+                        <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" class="btn btn-outline-primary dCV mainBtn" download>Download CV <i class="fa-solid fa-download"></i></a>
+                        <div class="links d-flex gap-2" aria-label="Social media links">
+                            <a href="#" class="btn btn-outline-secondary rounded-circle" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="btn btn-outline-secondary rounded-circle" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="img col-lg-6 text-center">
+                    <div class="img-inner">
+                        <img src="imgs/me.png" alt="Portrait of Gerold" class="img-fluid" loading="eager" onerror="this.src='https://via.placeholder.com/400x500/824DEF/ffffff?text=Gerold'">
+                    </div>
+                </div>
+            </div>
+            <div class="details row text-center mt-5" aria-label="Professional statistics">
+                <div class="details-inner">
+                    <div class="text col-sm-6 col-lg-3 mb-3 text-center">
+                        <div class="num"><span class="counter" data-target="14">0</span></div>
+                        <div class="text-inner text-uppercase">years of experience</div>
+                    </div>
+                    <div class="text col-sm-6 col-lg-3 mb-3 text-center">
+                        <div class="num"><span class="counter" data-target="50">0</span>+</div>
+                        <div class="text-inner text-uppercase">Project Completed</div>
+                    </div>
+                    <div class="text col-sm-6 col-lg-3 mb-3 text-center">
+                        <div class="num"><span class="counter" data-target="1500">0</span></div>
+                        <div class="text-inner text-uppercase">Happy Clients</div>
+                    </div>
+                    <div class="text col-sm-6 col-lg-3 mb-3 text-center">
+                        <div class="num"><span class="counter" data-target="5">0</span>+</div>
+                        <div class="text-inner text-uppercase">International projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section id="services" class="py-5 position-relative" aria-labelledby="services-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold magic-color" id="services-heading">My Recent Works</h2>
+                <p class="text-secondary text-white">
+                    We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.
+                </p>
+                <ul class="nav nav-pills justify-content-center bg-black rounded-pill py-2 px-3 mt-4" id="pills-tab" role="tablist" aria-label="Project categories">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-ui-tab" data-bs-toggle="pill" data-bs-target="#pills-ui" type="button" role="tab" aria-controls="pills-ui" aria-selected="false">UI/UX</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-brand-tab" data-bs-toggle="pill" data-bs-target="#pills-brand" type="button" role="tab" aria-controls="pills-brand" aria-selected="false">Branding</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app" aria-selected="false">Apps</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img1.jpg" alt="Deloitte project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">Deloitte</h5>
+                                        <p class="mb-0">Project was about precision and information.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img2.jpg" alt="New Age project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">New Age</h5>
+                                        <p class="mb-0">Project was about precision and information.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img3.jpg" alt="Sebastian UI/UX project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">Sebastian</h5>
+                                        <p class="mb-0">UI/UX Focused Design.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img4.jpg" alt="Mochnix branding project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">Mochnix</h5>
+                                        <p class="mb-0">Brand identity and presentation.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-ui" role="tabpanel" aria-labelledby="pills-ui-tab">
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img3.jpg" alt="Sebastian UI/UX project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">Sebastian</h5>
+                                        <p class="mb-0">UI/UX Focused Design.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-brand-tab">
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img4.jpg" alt="Mochnix branding project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">Mochnix</h5>
+                                        <p class="mb-0">Brand identity and presentation.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="rounded overflow-hidden position-relative project-item">
+                                <div class="img">
+                                    <img src="imgs/img1.jpg" alt="App Project screenshot" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="project-hover position-absolute p-3 bg-gradient d-flex justify-content-between align-items-center text-white">
+                                    <div>
+                                        <h5 class="mb-1">App Project</h5>
+                                        <p class="mb-0">Cross-platform mobile app.</p>
+                                    </div>
+                                    <div class="fs-4">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mySkills" class="py-5 mySkills" aria-labelledby="skills-heading">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold magic-color" id="skills-heading">My Skills</h2>
+                <p class="h-text text-secondary text-white py-2">We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.</p>
+            </div>
+            <div class="row g-4 justify-content-center" aria-label="Skill icons and proficiency">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon1.svg" alt="Figma logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>92%</span>
+                        <p class="fw-bold mt-2 mb-0">Figma</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon2.svg" alt="Sketch logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>80%</span>
+                        <p class="fw-bold mt-2 mb-0">Sketch</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon3.svg" alt="Adobe XD logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>85%</span>
+                        <p class="fw-bold mt-2 mb-0">XD</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon4.svg" alt="WordPress logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>99%</span>
+                        <p class="fw-bold mt-2 mb-0">WordPress</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon5.svg" alt="React logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>89%</span>
+                        <p class="fw-bold mt-2 mb-0">React</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <div class="text-center">
+                        <img src="imgs/icons/icon6.svg" alt="JavaScript logo" style="width:60px; padding-bottom: 15px;" loading="lazy">
+                        <span>93%</span>
+                        <p class="fw-bold mt-2 mb-0">JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5 testimonials d-flex align-items-center" aria-labelledby="testimonials-heading" style="min-height: 80vh;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold magic-color" id="testimonials-heading">What Clients Say</h2>
+            <p class="h-text text-secondary text-white py-2">Don't just take my word for it. Here's what my clients have to say about working together.</p>
+        </div>
+        
+        <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial-card bg-dark rounded-4 p-5 mx-auto" style="max-width: 600px;">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="client-avatar me-4">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" alt="Client avatar" class="rounded-circle" width="70" height="70" loading="lazy">
+                            </div>
+                            <div class="client-info">
+                                <h4 class="mb-1 text-white">Alex Johnson</h4>
+                                <p class="mb-0 text-secondary">CEO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-4">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text text-white fs-5">"Gerold transformed our vision into a stunning reality. His attention to detail and creative solutions exceeded our expectations. The website he built for us increased our conversion rate by 40%."</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="testimonial-card bg-dark rounded-4 p-5 mx-auto" style="max-width: 600px;">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="client-avatar me-4">
+                                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=60&h=60&fit=crop&crop=face" alt="Client avatar" class="rounded-circle" width="70" height="70" loading="lazy">
+                            </div>
+                            <div class="client-info">
+                                <h4 class="mb-1 text-white">Sarah Chen</h4>
+                                <p class="mb-0 text-secondary">Founder, Design Studio</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-4">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text text-white fs-5">"Working with Gerold was a game-changer for our brand. His UX expertise helped us create an intuitive interface that our users love. He's not just a developer, he's a true partner in success."</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="testimonial-card bg-dark rounded-4 p-5 mx-auto" style="max-width: 600px;">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="client-avatar me-4">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Client avatar" class="rounded-circle" width="70" height="70" loading="lazy">
+                            </div>
+                            <div class="client-info">
+                                <h4 class="mb-1 text-white">Michael Rodriguez</h4>
+                                <p class="mb-0 text-secondary">Marketing Director, Global Corp</p>
+                            </div>
+                        </div>
+                        <div class="rating mb-4">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                        </div>
+                        <p class="testimonial-text text-white fs-5">"Gerold's ability to understand complex business requirements and translate them into elegant solutions is remarkable. Our new app has received countless positive reviews from users."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="py-5 contact" aria-labelledby="contact-heading">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="bg-dark rounded-4 p-4 h-100">
+                        <div class="mb-4">
+                            <h3 class="magic-color" id="contact-heading">Let's work together!</h3>
+                            <p>I design and code beautifully simple things and I love what I do. Just simple like that!</p>
+                        </div>
+                        <form id="contactForm" novalidate aria-label="Contact form">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contact-name" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="contact-name" name="name" placeholder="Ex: John" required autocomplete="given-name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact-secondName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="contact-secondName" name="secondName" placeholder="Ex: Doe" required autocomplete="family-name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact-email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="contact-email" name="email" placeholder="Ex: user@gmail.com" required autocomplete="email">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact-number" class="form-label">Phone number</label>
+                                    <input type="tel" class="form-control" id="contact-number" name="number" placeholder="Ex: +20 1234567893" autocomplete="tel">
+                                </div>
+                                <div class="col-12">
+                                    <label for="contact-service" class="form-label">Service</label>
+                                    <select class="form-select" id="contact-service" name="service" required>
+                                        <option value="">Choose Services</option>
+                                        <option value="Branding Design">Branding Design</option>
+                                        <option value="Web Design">Web Design</option>
+                                        <option value="UI/UX Design">UI/UX Design</option>
+                                        <option value="Apps Design">Apps Design</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contact-message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="contact-message" name="message" rows="4" placeholder="Ex: I'd like to know more about your web design services for my upcoming project..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn mainBtn w-100" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="p-4 h-100">
+                    <div class="d-flex flex-column mb-4">
+                      <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-phone contact-info-icon" style="color:#824DEF; font-size:1.2em;"></i>
+                        <span class="fw-semibold">Phone</span>
+                      </div>
+                      <a href="tel:+011236548096" class="text-decoration-none ps-4">+01 123 654 8096</a>
+                    </div>
+
+                    <div class="d-flex flex-column mb-4">
+                      <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-envelope contact-info-icon" style="color:#824DEF; font-size:1.2em;"></i>
+                        <span class="fw-semibold">Email</span>
+                      </div>
+                      <a href="mailto:gerolddesign@mail.com" class="text-decoration-none ps-4">gerolddesign@mail.com</a>
+                    </div>
+
+                    <div class="d-flex flex-column">
+                      <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-location-dot contact-info-icon" style="color:#824DEF; font-size:1.2em;"></i>
+                        <span class="fw-semibold">Address</span>
+                      </div>
+                      <span class="ps-4">Warne Park Street Pine, FL 33157, New York</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer py-4" role="contentinfo">
+        <div class="footer-inner">
+            <div class="img"><img src="imgs/logo.png" alt="Gerold Design logo" loading="lazy"></div>
+            <div class="copyright">
+                <p>© 2024 All rights reserved by <a href="#">ThemeJunction</a></p>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    
+    <!-- JavaScript Modules -->
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    
+    <!-- Utility functions -->
+    <script src="js/utils.js" defer></script>
+    
+    <!-- Individual JavaScript modules -->
+    <script src="js/preloader.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/animations.js" defer></script>
+    <script src="js/cv-download.js" defer></script>
+    <script src="js/contact-form.js" defer></script>
+    <script src="js/project-filtering.js" defer></script>
+    <script src="js/scroll-to-top.js" defer></script>
+    
+    <!-- Main JavaScript file -->
+    <script src="js/main.js" defer></script>
+</body>
+</html> 

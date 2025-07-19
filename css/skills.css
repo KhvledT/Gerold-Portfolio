@@ -1,0 +1,66 @@
+/* Skills Section Styles */
+
+#mySkills{
+    margin: 100px auto !important;
+}
+
+#mySkills h2{
+    font-size: 50px !important;
+    width: fit-content !important;
+    margin: 0 auto !important
+}
+
+#mySkills .row .text-center img {
+  width: 70px;
+  -webkit-filter: grayscale(90%);
+  transition: all 0.4s ease-in-out;
+}
+
+#mySkills .row .text-center span {
+  color: var(--normal-color);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+#mySkills .row .text-center p.fw-bold {
+  color: var(--main1-color);
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Container Styling */
+#mySkills .row .text-center {
+  background-color: #140C1C;
+  padding: 30px 15px 25px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover Effects */
+#mySkills .row .text-center:hover {
+  background-color: #2A1453;
+  border: 2px solid var(--main1-color);
+}
+
+#mySkills .row .text-center:hover img {
+  -webkit-filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+#mySkills .row .text-center:hover span {
+  opacity: 1;
+}
+
+#mySkills p.h-text{
+    width: 63% !important;
+    margin: 0 auto !important
+} 

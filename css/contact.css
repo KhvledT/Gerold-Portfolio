@@ -1,0 +1,147 @@
+/* Contact Section Styles */
+
+section.contact {
+  background-color: #050709;
+}
+
+section.contact .bg-dark {
+  background-color: #140C1C !important;
+  border-radius: 20px;
+}
+
+section.contact .magic-color {
+  font-size: 45px;
+}
+
+section.contact .bg-dark h3 {
+  font-size: 45px;
+}
+
+section.contact .bg-dark p {
+  font-size: 16px;
+  color: var(--normal-color);
+  margin: 20px 0;
+}
+
+section.contact input,
+section.contact select,
+section.contact textarea {
+  background-color: transparent !important;
+  border: 1px solid #54388f !important;
+  border-radius: 10px;
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.771) !important;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+section.contact input:focus,
+section.contact select:focus,
+section.contact textarea:focus {
+  outline: none;
+  border: 1px solid var(--main1-color) !important;
+  box-shadow: 0 0 10px rgba(130, 77, 239, 0.3);
+}
+
+section.contact .form-label {
+  color: #bbbbbb;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+section.contact input::placeholder,
+section.contact textarea::placeholder {
+  color: #bbbbbb;
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
+
+section.contact select option {
+  background-color: var(--bg-color);
+  color: var(--normal-color);
+}
+
+section.contact select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(/imgs/icons/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 30px !important;
+}
+
+section.contact textarea {
+  resize: none;
+}
+
+section.contact .mainBtn {
+  border: none;
+  padding: 20px 35px;
+  margin-top: 10px;
+}
+
+section.contact .col-lg-4 a,
+section.contact .col-lg-4 span,
+section.contact .col-lg-4 p {
+  color: var(--normal-color);
+  font-size: 17px;
+}
+
+section.contact .col-lg-4 a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+section.contact .col-lg-4 a:hover {
+  color: var(--main1-color) !important;
+}
+
+section.contact .col-lg-4 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+section.contact .col-lg-4 .mb-3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+section.contact .col-lg-4 .mb-3::before {
+  content: '';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 50%;
+  background: linear-gradient(670deg, var(--main1-color), var(--main2-color));
+  color: var(--normal-color);
+  flex-shrink: 0;
+}
+
+section.contact .col-lg-4 .mb-3 p {
+  margin: 0;
+  color: var(--normal-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+section.contact .col-lg-4 .mb-3 a,
+section.contact .col-lg-4 .mb-3 span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 2px;
+} 

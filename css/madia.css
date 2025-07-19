@@ -1,0 +1,31 @@
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    align-items: flex-start !important;
+  }
+  html, body, main, section {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    overscroll-behavior: auto !important;
+    height: auto !important;
+    min-height: auto !important;
+  }
+  main, section {
+    display: block !important;
+    min-height: auto !important;
+    height: auto !important;
+  }
+}
+
+/* Preloader responsive fix */
+@media screen and (max-width: 575.20px) {
+    #preloader {
+      position: fixed !important;
+      inset: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      left: 0 !important;
+      top: 0 !important;
+      min-width: unset !important;
+      min-height: unset !important;
+    }
+}
